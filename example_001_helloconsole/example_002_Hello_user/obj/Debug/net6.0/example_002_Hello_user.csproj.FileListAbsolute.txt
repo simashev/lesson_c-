@@ -1,0 +1,15 @@
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/bin/Debug/net6.0/example_002_Hello_user
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/bin/Debug/net6.0/example_002_Hello_user.deps.json
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/bin/Debug/net6.0/example_002_Hello_user.runtimeconfig.json
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/bin/Debug/net6.0/example_002_Hello_user.dll
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/bin/Debug/net6.0/example_002_Hello_user.pdb
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.csproj.AssemblyReference.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.GeneratedMSBuildEditorConfig.editorconfig
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.AssemblyInfoInputs.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.AssemblyInfo.cs
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.csproj.CoreCompileInputs.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.dll
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/refint/example_002_Hello_user.dll
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.pdb
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/example_002_Hello_user.genruntimeconfig.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/example_002_Hello_user/obj/Debug/net6.0/ref/example_002_Hello_user.dll
