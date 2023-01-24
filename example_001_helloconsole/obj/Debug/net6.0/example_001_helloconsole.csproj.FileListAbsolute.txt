@@ -1,0 +1,15 @@
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/bin/Debug/net6.0/example_001_helloconsole
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/bin/Debug/net6.0/example_001_helloconsole.deps.json
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/bin/Debug/net6.0/example_001_helloconsole.runtimeconfig.json
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/bin/Debug/net6.0/example_001_helloconsole.dll
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/bin/Debug/net6.0/example_001_helloconsole.pdb
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.csproj.AssemblyReference.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.GeneratedMSBuildEditorConfig.editorconfig
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.AssemblyInfoInputs.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.AssemblyInfo.cs
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.csproj.CoreCompileInputs.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.dll
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/refint/example_001_helloconsole.dll
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.pdb
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/example_001_helloconsole.genruntimeconfig.cache
+/Users/freshsa8/Desktop/git/C#/example_001_helloconsole/obj/Debug/net6.0/ref/example_001_helloconsole.dll
