@@ -6,13 +6,13 @@
 
 // 2 -> 1,4
 
-
+// мое решение
 // Console.Clear();
 // Console.Write("Введи число N = ");
 // int N = int.Parse (Console.ReadLine());
-// int a = 0;
+// // int a = 0;
 // for(int i=1;i<=N;i++){
-//     Console.Write($"{Math.Pow(a+i,2)} ");
+//     Console.Write($"{Math.Pow(i,2)} ");
 // }
 
 // Console.Clear();
@@ -28,6 +28,8 @@
 //     Console.Write($"{Math.Pow(i,2)} ");
 // }
 
+// // решение через массив
+
 Console.Clear();
 Console.Write("Введи число N = ");
 int N = int.Parse (Console.ReadLine());
@@ -41,6 +43,7 @@ if (N < 0) {
 int[] result = new int [m];
 for(int j = 0; i <= N;i++){
     result [j] = i * i;
+    // Console.Write($"{result[j]} ");
     j++;
 }
 for (int j = 0; j < m; j++) {
