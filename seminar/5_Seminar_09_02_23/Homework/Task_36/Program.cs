@@ -3,15 +3,15 @@
 
 Console.Clear();
 
-System.Console.Write("Enter the array length: ");
+System.Console.Write("Введи длину массива: ");
 int length = int.Parse(Console.ReadLine()!);                    // задаем переменную в которой длина массива, введенная с клавиатуры
-int[] A = new int[length];                                      // создаем массив
+int[] dlina = new int[length];                                      // создаем массив
 
 void newArray(int[] array)                                      // функция для заполнения массива
 {
-    System.Console.Write("Enter min Value of array: "); 
+    System.Console.Write("Введи минимальное значение массива "); 
     int minValue = int.Parse(System.Console.ReadLine()!);       // переменная в которой минимальное значение элемента массива
-    System.Console.Write("Enter max Value of array: ");
+    System.Console.Write("Введи минимальное значение массива ");
     int maxValue = int.Parse(System.Console.ReadLine()!);       // переменная в которой максимально значение элемента массива
 
     for (int i = 0; i < length; i++)                            // цикл, заполняющий наш массив
@@ -23,7 +23,7 @@ void newArray(int[] array)                                      // функци�
                                                                 // после выведения элементов массива на экране
 }
 
-int GetSummOddIndex(int[] array)                                // функция для подсчета и вывода суммы нужных элементов
+int GetSum(int[] array)                                // функция для подсчета и вывода суммы нужных элементов
 {
     int summ = 0;
     for (int i = 1; i < array.Length; i += 2)
@@ -33,5 +33,5 @@ int GetSummOddIndex(int[] array)                                // функци�
     return summ;
 }
 
-newArray(A);
-Console.WriteLine($"Сумма чисел, стоящих на нечетных индексах = {GetSummOddIndex(A)}");
+newArray(dlina);
+Console.WriteLine($"Сумма чисел, стоящих на нечетных индексах = {GetSum(dlina)}");

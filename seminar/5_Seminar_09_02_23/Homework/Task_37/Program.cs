@@ -6,11 +6,11 @@ Console.Clear();
 
 System.Console.Write("Введите длину массива: ");
 int ArrLength = int.Parse(Console.ReadLine()!);                 // задаем переменную в которой длина массива, введенная с клавиатуры
-int[] A = newArray(ArrLength);                                  // записываем новый массив в A
-int[] resultArray = GetMultiply(A);                             // записываем итоговый массив в resultArray
+int[] array = newArray(ArrLength);                                  // записываем новый массив в A
+int[] resultArray = GetMultiply(array);                             // записываем итоговый массив в resultArray
 
-System.Console.WriteLine("Результирующий массив строкой ниже");
-for (int k = 0; k < resultArray.Length; k++)                    // цикл дял выведения на экран в одну строку конечного массива
+System.Console.WriteLine("Новый массив");
+for (int k = 0; k < resultArray.Length; k++)                    // цикл для выведения на экран в одну строку конечного массива
 {
     System.Console.Write($"{resultArray[k]} ");
 }
@@ -18,21 +18,21 @@ System.Console.WriteLine("");
 
 int[] newArray(int length)                                      // функция для заполнения и выведения случайного массива 
 {
-    int[] array = new int[length];                              // создаем массив длиной length, которую вводим с клавиатуры
-    System.Console.Write("Enter the min Value of array: ");
+    int[] dlina = new int[length];                              // создаем массив длиной length, которую вводим с клавиатуры
+    System.Console.Write("Введите минимально значение массива ");
     int minValue = int.Parse(System.Console.ReadLine()!);
-    System.Console.Write("Enter the max Value of array: ");
+    System.Console.Write("Введите максимальное значение массива ");
     int maxValue = int.Parse(System.Console.ReadLine()!);
 
     System.Console.WriteLine("");
-    System.Console.WriteLine("Наш исходный массив строкой ниже");
+    System.Console.WriteLine("Исходный массив");
     for (int i = 0; i < length; i++)                            // цикл для заполнения массива случайными числами
     {
-        array[i] = new Random().Next(minValue, maxValue + 1);
-        System.Console.Write($"{array[i]} ");                   // выводим элементы массива в консоли на одной строке
+        dlina[i] = new Random().Next(minValue, maxValue + 1);
+        System.Console.Write($"{dlina[i]} ");                   // выводим элементы массива в консоли на одной строке
     }
     System.Console.WriteLine("\n");
-    return array;                                               // возвращаем созданный массив
+    return dlina;                                               // возвращаем созданный массив
 }
 
 int[] GetMultiply(int[] array)                                  // функция заполняющая и возвращающая массив с произведением чисел
