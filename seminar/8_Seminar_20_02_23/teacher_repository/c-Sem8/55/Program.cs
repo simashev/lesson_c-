@@ -17,7 +17,8 @@ int columns = int.Parse(ReadLine());
 int[,] array = GetArray(rows, columns, 0, 10);
 PrintArray(array);
 WriteLine();
-PrintArray(ChangeArray1(array));
+ChangeArray2(array);
+PrintArray(array);
 WriteLine();
 
 

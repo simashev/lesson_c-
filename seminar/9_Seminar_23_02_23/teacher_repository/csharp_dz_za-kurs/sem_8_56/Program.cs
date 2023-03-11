@@ -44,7 +44,7 @@ int GetRowNumber(int[,] array)
     int minsum = 0;
     for (int i = 0; i < array.GetLength(1); i++)
     {
-        minsum = minsum + array[0, i];
+        minsum = minsum + array[0, i];//7
     }
 
     for (int i = 1; i < array.GetLength(0); i++)
@@ -52,13 +52,25 @@ int GetRowNumber(int[,] array)
         int sum = 0;
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            sum = sum + array[i, j];
+            sum = sum + array[i, j]; // 
         }
         if (minsum > sum)
         {
             minsum = sum;
             row = i;
         }
+    
     }
     return row;
 }
+
+
+int sum = 0;
+for (int j = 0; j < array.GetLength(1)/2; j++) // 10
+        {
+            sum = sum + array[j] + array[array.Length-j]; // 
+        }
+    
+    // 1 2 3 4 5 6 7 8 9 10
+    //11
+    //2+9+11 = 22
