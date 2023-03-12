@@ -31,7 +31,7 @@
 using System; 
 using static System.Console; 
 
-int [,] array = new int [6,6];
+int [,] array = new int [4,4];
 GetArray(array);
 PrintArray(array);
 
@@ -58,9 +58,9 @@ int [,] GetArray (int [,] array){
             if(j!= i && j!=array.GetLength(0)-1-i && j!=array.GetLength(0)-1){
                 array[j,0] = 4*array.GetLength(0) -3 -j;
             }
-            if(i!=array.GetLength(0)-1 && j!=array.GetLength(0)-1-i && j!=array.GetLength(0)-1){
-                array[i,j] = 1;
-            }
+            // if(i!=array.GetLength(0) && i!=array.GetLength(0)-1-i && j!=array.GetLength(0)-1){
+            //     array[i,j] = 4*array.GetLength(0) -4+j;
+            // }
             
 
         }//i = 3
@@ -68,10 +68,5 @@ int [,] GetArray (int [,] array){
         array[array.GetLength(0)-1,i] = 3*array.GetLength(0)-2-i;
         
     }
-    // for (int i=0; i<array.GetLength(0); i++){
-    //             for (int j=0; j<array.GetLength(1); j++){
-
-    //             }
-    // }
     return array;
 } 
